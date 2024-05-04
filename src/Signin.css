@@ -1,0 +1,67 @@
+@font-face {
+    font-family: 'Rocher';
+    src: url(https://assets.codepen.io/9632/RocherColorGX.woff2);
+  }
+  
+  body{
+  margin-bottom: 30px;
+  }
+  .Title{
+    font-family: 'Rocher';
+    text-align: center;
+    font-size: 80px;
+  margin: 0px;
+  }
+  .Title2{
+    font-family: 'Rocher';
+    text-align: center;
+    font-size: 25px;
+  margin: 0px;
+  background-color: transparent;
+  }
+ 
+  h1 {
+ 
+      font-size: 28px;
+      margin-bottom: 2.5%;
+    }
+  
+  .section1{
+    display: grid;
+    grid-template-rows: 0.5fr 1fr;
+    
+    text-align: center;
+  
+  }
+  .section2{
+  display: grid;
+  justify-content: center;
+  
+  font-family:'Press Start 2p';
+  font-size: 30pt;
+  }
+  label{
+      color:rgb(108, 82, 25);
+  
+  }
+  
+  
+  input[type=text] {
+      width: 100%;
+      padding: 12px 20px;
+      margin: 8px 0;
+      box-sizing: border-box;
+      border: none;
+      border-bottom: 2px solid red;
+    }
+    input[type=password] {
+      width: 100%;
+      padding: 12px 20px;
+      margin: 8px 0;
+      box-sizing: border-box;
+      border: none;
+      border-bottom: 2px solid red;
+    }
+    .error-message{
+      color:rgb(19, 14, 3);
+    }

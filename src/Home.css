@@ -1,0 +1,124 @@
+.HomeApp {
+    display: grid;
+    grid-template-rows: 0.5fr 1fr;
+  }
+  
+  .section3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-left: 100px;
+    padding-right: 100px;
+    height: fit-content;
+  }
+  
+  .leftsection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .logodiv {
+    padding: 30px;
+  }
+  
+  .Title-left {
+    font-family: 'Rocher';
+    text-align: left;
+    font-size: 150px;
+    margin: 0px;
+  }
+  
+  .Title3 {
+    font-family: 'Rocher';
+    text-align: center;
+    font-size: 40px;
+    margin: 0px;
+    background-color: transparent;
+  }
+  
+  .gifname {
+    font-family: 'Rocher';
+    text-align: center;
+    width: 50%;
+    margin: 0px;
+    text-align: center;
+  }
+  
+  .rightsection {
+    display: grid;
+    grid-template-rows: 1fr 0.1fr 0.1fr;
+  }
+  
+  .gif {
+    text-align: center;
+  }
+  
+  #header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2.5rem 2rem;
+  }
+  
+  h1 {
+    font-family: "Rubik", sans-serif;
+    font-size: 1.7rem;
+    color: #141a39;
+    text-transform: uppercase;
+    cursor: default;
+  }
+  
+  #rules {
+    margin-top: 20px;
+  }
+  
+  h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 15px;
+  }
+  
+  main {
+    width: 70rem;
+    height: 43rem;
+    background-color: #ffffff;
+    box-shadow: 0px 5px 15px 8px #e4e7fb;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 0.5rem;
+    padding: 50px;
+  }
+  
+  .leaderboard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  @media (max-width: 740px) {
+    * {
+      font-size: 70%;
+    }
+  }
+  
+  @media (max-width: 500px) {
+    * {
+      font-size: 55%;
+    }
+  }
+  
+  @media (max-width: 390px) {
+    * {
+      font-size: 45%;
+    }
+  }
+  
